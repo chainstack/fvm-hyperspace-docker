@@ -7,7 +7,7 @@ RUN apt install -y git ssh wget
 
 WORKDIR /build
 
-RUN git clone --branch v1.20.3-hyperspace-nv21-rpc-p01 -v --progress https://github.com/filecoin-project/lotus.git .
+RUN git clone --branch v1.20.3-hyperspace-nv21-rpc-p01-hf01 -v --progress https://github.com/filecoin-project/lotus.git .
 
 RUN wget https://sh.rustup.rs
 RUN mv index.html rustup-init
